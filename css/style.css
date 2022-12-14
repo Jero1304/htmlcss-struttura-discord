@@ -1,0 +1,122 @@
+/* REGOLE GENERALI */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+.section{
+    padding: 48px 0;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* ___________________________ */
+
+/* DEBUG */
+.debug header{
+    min-height: 60px;
+    background-color: lightblue;
+    padding: 20px;
+    padding: 30px;
+}
+
+.debug footer{
+    background-color: aqua;
+    min-height: 60px;
+
+}
+.debug .row{
+    display: flex;
+    border: 2px solid black;
+}
+
+.debug .page-content{
+    /* min-height: 700px; */
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.debug .page-content-2{
+    /* min-height: 700px; */
+    background-color: white;
+    padding: 30px;
+}
+
+.debug aside{
+    background-color: crimson;
+    min-height: 100px;
+    flex-basis: 700px;
+    padding: 30px;
+}
+.debug .articolo{
+    background-color: yellow;
+    min-height: 500px;
+    flex-basis: 500px;
+    padding: 30px;
+}
+
+.debug .container{
+    padding: 20px;
+    /* border: 4px dashed black; */
+}
+
+.debug .square{
+    
+    min-height: 600px;
+    flex-grow: 1;
+    padding: 30px;
+    background-color: green;
+}
+/* ___________________________ */
+
+/* CLASSI */
+header .row{
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+
+.row-cols-2 > .col{
+    flex-basis: calc(100%/4);
+    
+
+}
+.row .col50{
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+.page-content >.container{
+    display: flex;
+}
+.page-content-2 >.container{
+    display: flex;
+}
+.page-content-header >.container{
+    display: flex;
+}
+
+.imagine{
+    flex-basis: 320px;
+}
+
+.articolo{
+    flex-grow:1 ;
+}
+
+.page-content-header{
+    background-color: blue;
+}
+
+.presentazione{
+    min-height: 300px;
+    flex-grow: 1;
+    padding: 40px;
+    background-color: fuchsia;
+}
